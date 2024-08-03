@@ -1,0 +1,8 @@
+{
+    "env": {
+        "MONGO_USER": "sycung9001",
+        "MONGO_PASSWORD": "0712",
+        "MONGO_DEFAULT_DATABASE": "myDatabaseName?retryWrites=true&w=majority",
+        "STRIPE_KEY": "sk_test_51PjNduGPLfinpEClN4ZxUpGV06AwktYgQ2B9gb8n77tTmJCAcpM3204XNTPGEqOsYyuiMU5wDXVxm0POWwl0bHb1000Enbx102"
+    }
+}
