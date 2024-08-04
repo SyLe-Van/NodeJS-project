@@ -6,9 +6,6 @@ import { validationResult } from "express-validator";
 
 import User from "../models/user.js";
 
-import expressValidator from "express-validator";
-const { validationResult } = expressValidator;
-
 const transporter = nodemailer.createTransport(
   sendgridTransport({
     auth: {

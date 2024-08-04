@@ -2,11 +2,9 @@ import crypto from "crypto";
 import bcrypt from "bcryptjs";
 import nodemailer from "nodemailer";
 import sendgridTransport from "nodemailer-sendgrid-transport";
-import { validationResult } from "express-validator";
-
+import expressValidator from "express-validator";
 import User from "../models/user.js";
 
-import expressValidator from "express-validator";
 const { validationResult } = expressValidator;
 
 const transporter = nodemailer.createTransport(
